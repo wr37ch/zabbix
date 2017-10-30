@@ -28,4 +28,4 @@ yum -y install zabbix-agent
 systemctl start zabbix-agent
 yum -y install python-pip
 pip install requests
-#python /vagrant/addhost.py
+python /vagrant/addhost.py
